@@ -1,0 +1,129 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header_section {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.about_section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.img-box img {
+    width: 100%;
+    height: auto;
+}
+
+.detail-box {
+    padding: 20px;
+}
+
+.blog_section {
+    padding: 50px 0;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.img-box img {
+    width: 100%;
+    height: auto;
+}
+
+.detail-box {
+    padding: 20px;
+}
+.box h5 {
+    margin-bottom: 10px;
+  }
+.box p {
+    color: #777;
+}
+
+.box a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact_section {
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.form_container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer_section {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
